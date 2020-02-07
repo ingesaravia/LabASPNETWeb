@@ -249,7 +249,7 @@
     <Content Include="BACKUP\swf\5.swf" />
     <Content Include="BACKUP\swf\6.swf" />
     <Content Include="BACKUP\swf\7.swf" />
-    <Content Include="DOM.aspx" />
+    <Content Include="Dom.aspx" />
     <Content Include="Html5.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
@@ -283,7 +283,7 @@
     <Content Include="BACKUP\content\html\helvetican.Ttf" />
     <Content Include="BACKUP\swf\4swf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="JavaScript.aspx" />
+    <Content Include="Javascript.aspx" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -334,12 +334,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DOM.aspx.cs">
-      <DependentUpon>DOM.aspx</DependentUpon>
+    <Compile Include="Dom.aspx.cs">
+      <DependentUpon>Dom.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DOM.aspx.designer.cs">
-      <DependentUpon>DOM.aspx</DependentUpon>
+    <Compile Include="Dom.aspx.designer.cs">
+      <DependentUpon>Dom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Html5.aspx.cs">
       <DependentUpon>Html5.aspx</DependentUpon>
@@ -481,12 +481,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="JavaScript.aspx.cs">
-      <DependentUpon>JavaScript.aspx</DependentUpon>
+    <Compile Include="Javascript.aspx.cs">
+      <DependentUpon>Javascript.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="JavaScript.aspx.designer.cs">
-      <DependentUpon>JavaScript.aspx</DependentUpon>
+    <Compile Include="Javascript.aspx.designer.cs">
+      <DependentUpon>Javascript.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

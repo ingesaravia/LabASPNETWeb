@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace LabASPNETWeb
 {
-    public partial class DOM : System.Web.UI.Page
+    public partial class Dom : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

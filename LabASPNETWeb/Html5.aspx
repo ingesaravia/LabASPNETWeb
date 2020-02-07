@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Html5.aspx.cs" Inherits="LabASPNETWeb.Html5" %>
+﻿<%@ Page Title="HTML5" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Html5.aspx.cs" Inherits="LabASPNETWeb.Html5" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <script>
