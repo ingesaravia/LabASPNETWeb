@@ -182,8 +182,74 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BACKUP\content\css\animate.html" />
+    <Content Include="BACKUP\content\css\formsbootstrap.html" />
+    <Content Include="BACKUP\content\css\impresion.html" />
+    <Content Include="BACKUP\content\css\selectores1.html" />
+    <Content Include="BACKUP\content\css\selectores2.html" />
+    <Content Include="BACKUP\content\css\sintaxis.html" />
+    <Content Include="BACKUP\content\css\style.html" />
+    <Content Include="BACKUP\content\css\tabla.css" />
+    <Content Include="BACKUP\content\flash\swf1.html" />
+    <Content Include="BACKUP\content\html5\canvas.html" />
+    <Content Include="BACKUP\content\html5\forms.html" />
+    <Content Include="BACKUP\content\html5\gmaps.html" />
+    <Content Include="BACKUP\content\html5\semantics.html" />
+    <Content Include="BACKUP\content\html\ejem.jpg" />
+    <Content Include="BACKUP\content\html\formejem1.html" />
+    <Content Include="BACKUP\content\html\formejem2.html" />
+    <Content Include="BACKUP\content\html\forms.html" />
+    <Content Include="BACKUP\content\html\fuentes.html" />
+    <Content Include="BACKUP\content\html\iframes.html" />
+    <Content Include="BACKUP\content\html\imagenes.html" />
+    <Content Include="BACKUP\content\html\tablas.html" />
+    <Content Include="BACKUP\content\javascript\calculadora.js" />
+    <Content Include="BACKUP\content\javascript\calculadoraJS.html" />
+    <Content Include="BACKUP\content\javascript\galeriaJS.html" />
+    <Content Include="BACKUP\content\javascript\random.js" />
+    <Content Include="BACKUP\content\javascript\timer.js" />
+    <Content Include="BACKUP\content\layout\architectlayout.html" />
+    <Content Include="BACKUP\content\layout\hotellayout.html" />
+    <Content Include="BACKUP\content\layout\layout-mobile.html" />
+    <Content Include="BACKUP\content\layout\layout1.css" />
+    <Content Include="BACKUP\content\layout\layout1.html" />
+    <Content Include="BACKUP\content\layout\layout2.css" />
+    <Content Include="BACKUP\content\layout\layout2.html" />
+    <Content Include="BACKUP\content\layout\layout3.css" />
+    <Content Include="BACKUP\content\layout\layout3.html" />
+    <Content Include="BACKUP\content\layout\layoutadaptable1.html" />
+    <Content Include="BACKUP\content\layout\layoutadaptable2.html" />
+    <Content Include="BACKUP\content\layout\layoutfull.css" />
+    <Content Include="BACKUP\content\layout\menu.css" />
+    <Content Include="BACKUP\content\layout\menuvertical.css" />
+    <Content Include="BACKUP\content\layout\portfoliolayout.html" />
+    <Content Include="BACKUP\content\layout\socialmedialayout.html" />
+    <Content Include="BACKUP\content\layout\startup.html" />
+    <Content Include="BACKUP\content\layout\tableless.css" />
+    <Content Include="BACKUP\content\layout\travellayout.html" />
+    <Content Include="BACKUP\content\layout\w3.css" />
+    <Content Include="BACKUP\content\server\online.html" />
+    <Content Include="BACKUP\css\animate.css" />
+    <Content Include="BACKUP\css\bootstrap.css" />
+    <Content Include="BACKUP\css\layout.css" />
+    <Content Include="BACKUP\css\menu.css" />
+    <Content Include="BACKUP\css\style.css" />
+    <Content Include="BACKUP\css\w3.css" />
+    <Content Include="BACKUP\img\ejem.jpg" />
+    <Content Include="BACKUP\img\fondo.jpg" />
+    <Content Include="BACKUP\img\hum1.jpg" />
+    <Content Include="BACKUP\img\iconos.jpg" />
+    <Content Include="BACKUP\img\reglacss.png" />
+    <Content Include="BACKUP\img\sp1.jpg" />
     <Content Include="BACKUP\index.html" />
     <Content Include="BACKUP\inicio.html" />
+    <Content Include="BACKUP\swf\1.swf" />
+    <Content Include="BACKUP\swf\2.swf" />
+    <Content Include="BACKUP\swf\3.swf" />
+    <Content Include="BACKUP\swf\5.swf" />
+    <Content Include="BACKUP\swf\6.swf" />
+    <Content Include="BACKUP\swf\7.swf" />
+    <Content Include="DOM.aspx" />
     <Content Include="Html5.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
@@ -213,7 +279,11 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="BACKUP\content\html\helveticac.Ttf" />
+    <Content Include="BACKUP\content\html\helvetican.Ttf" />
+    <Content Include="BACKUP\swf\4swf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="JavaScript.aspx" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -264,6 +334,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DOM.aspx.cs">
+      <DependentUpon>DOM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DOM.aspx.designer.cs">
+      <DependentUpon>DOM.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Html5.aspx.cs">
       <DependentUpon>Html5.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -404,6 +481,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="JavaScript.aspx.cs">
+      <DependentUpon>JavaScript.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript.aspx.designer.cs">
+      <DependentUpon>JavaScript.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -431,11 +515,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="BACKUP\content\" />
-    <Folder Include="BACKUP\css\" />
-    <Folder Include="BACKUP\img\" />
-    <Folder Include="BACKUP\js\" />
-    <Folder Include="BACKUP\swf\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
