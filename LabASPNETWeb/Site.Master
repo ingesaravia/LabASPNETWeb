@@ -53,6 +53,8 @@
                         <li><a runat="server" href="~/Html5">HTML5</a></li>
                         <li><a runat="server" href="~/Dom">DOM</a></li>
                         <li><a runat="server" href="~/Javascript">JavaScript</a></li>
+                        <li><a runat="server" href="~/GesJQuery">JQuery</a></li>
+                        <li><a runat="server" href="~/CreateJS.aspx">CreateJS</a></li>
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>

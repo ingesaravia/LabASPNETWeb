@@ -249,7 +249,9 @@
     <Content Include="BACKUP\swf\5.swf" />
     <Content Include="BACKUP\swf\6.swf" />
     <Content Include="BACKUP\swf\7.swf" />
+    <Content Include="CreateJS.aspx" />
     <Content Include="Dom.aspx" />
+    <Content Include="GesJQuery.aspx" />
     <Content Include="Html5.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
@@ -288,6 +290,7 @@
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\CodigoJQuery\codigo-selectores.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
@@ -334,12 +337,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateJS.aspx.cs">
+      <DependentUpon>CreateJS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateJS.aspx.designer.cs">
+      <DependentUpon>CreateJS.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Dom.aspx.cs">
       <DependentUpon>Dom.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Dom.aspx.designer.cs">
       <DependentUpon>Dom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GesJQuery.aspx.cs">
+      <DependentUpon>GesJQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GesJQuery.aspx.designer.cs">
+      <DependentUpon>GesJQuery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Html5.aspx.cs">
       <DependentUpon>Html5.aspx</DependentUpon>
