@@ -251,7 +251,8 @@
     <Content Include="BACKUP\swf\7.swf" />
     <Content Include="CreateJS.aspx" />
     <Content Include="Dom.aspx" />
-    <Content Include="GesJQuery.aspx" />
+    <Content Include="JQuery.aspx" />
+    <Content Include="GesJQuery\JQuerySelectores.aspx" />
     <Content Include="Html5.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
@@ -290,7 +291,6 @@
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\CodigoJQuery\codigo-selectores.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
@@ -351,12 +351,19 @@
     <Compile Include="Dom.aspx.designer.cs">
       <DependentUpon>Dom.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GesJQuery.aspx.cs">
-      <DependentUpon>GesJQuery.aspx</DependentUpon>
+    <Compile Include="JQuery.aspx.cs">
+      <DependentUpon>JQuery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GesJQuery.aspx.designer.cs">
-      <DependentUpon>GesJQuery.aspx</DependentUpon>
+    <Compile Include="JQuery.aspx.designer.cs">
+      <DependentUpon>JQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GesJQuery\JQuerySelectores.aspx.cs">
+      <DependentUpon>JQuerySelectores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GesJQuery\JQuerySelectores.aspx.designer.cs">
+      <DependentUpon>JQuerySelectores.aspx</DependentUpon>
     </Compile>
     <Compile Include="Html5.aspx.cs">
       <DependentUpon>Html5.aspx</DependentUpon>
@@ -532,6 +539,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="GesDOM\" />
+    <Folder Include="GesJavaScript\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

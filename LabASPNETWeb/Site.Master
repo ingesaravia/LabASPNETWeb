@@ -51,9 +51,24 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/Html5">HTML5</a></li>
-                        <li><a runat="server" href="~/Dom">DOM</a></li>
-                        <li><a runat="server" href="~/Javascript">JavaScript</a></li>
-                        <li><a runat="server" href="~/GesJQuery">JQuery</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" runat="server" href="~/Dom">DOM</a>
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" href="~/GesDOM/DomAlgo">Selectores</a></li>
+                                <li><a runat="server" href="~/GesDOM/DomAlgo">Selectores</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" runat="server" href="~/JavaScript">JavaScript</a>
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" href="~/GesJavaScript/JavaScriptalgo">Selectores</a></li>
+                                <li><a runat="server" href="~/GesJavaScript/JavaScriptalgos">Selectores</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" runat="server" href="~/JQuery">JQuery</a>
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" href="~/GesJQuery/JQuerySelectores">Selectores</a></li>
+                                <li><a runat="server" href="~/GesJQuery/JQuerySelectores">Selectores</a></li>
+                            </ul>
+                        </li>
                         <li><a runat="server" href="~/CreateJS.aspx">CreateJS</a></li>
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>

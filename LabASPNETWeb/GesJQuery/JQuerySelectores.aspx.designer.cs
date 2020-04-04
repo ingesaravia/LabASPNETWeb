@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LabASPNETWeb
+namespace LabASPNETWeb.GesJQuery
 {
 
 
-    public partial class GesJQuery
+    public partial class JQuerySelectores
     {
     }
 }
